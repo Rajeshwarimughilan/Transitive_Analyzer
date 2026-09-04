@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+venv310/
+venv311/
+.venv/
+
+# Caches
+.pytest_cache/
+cve_cache/
+
+# Generated/output data
+deptrees/
+graphs/
+results/
+sboms/
+logs/
+figures/
+targets/
+pilot_reachability/*_err.log
+
+# Env / secrets
+.env
+*.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

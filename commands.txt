@@ -1,0 +1,14 @@
+# One-time setup
+pip install cyclonedx-bom pipdeptree networkx pandas \
+            numpy matplotlib seaborn scipy requests
+
+# Run in order
+python generate_envs.py
+python generate_sboms.py
+python generate_deptrees.py
+python build_graphs.py
+python enrich_cves.py
+python transrisk.py
+python evaluate.py   # figures + stats — implement after scores look right
+
+Your API Key: c81cdcfd-2c11-4762-a4c6-f3b723a67ee9
